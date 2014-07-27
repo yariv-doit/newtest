@@ -35,7 +35,7 @@
         state: absent
     - name: Destroy the load-balancer
       gce_lb:
-        name: lb
+        name: varnish
         region: "{{ region }}"
         project_id: "{{ pid }}"
         pem_file: "{{ pem }}"
@@ -45,7 +45,12 @@
       gce_pd: name={{ item.name }} zone={{ item.zone }} state=absent
               project_id={{ pid }} pem_file={{ pem }} service_account_email={{ email }}
       with_items:
-        - { name: "myinstance1", zone: "us-central1-a" }
-        - { name: "myinstance3", zone: "us-central1-a" }
-        - { name: "myinstance2", zone: "us-central1-b" }
-        - { name: "myinstance4", zone: "us-central1-b" }
+        - { name: "walla-varnish1", zone: "us-central1-a" }
+        - { name: "walla-varnish3", zone: "us-central1-a" }
+        - { name: "walla-varnish2", zone: "us-central1-b" }
+        - { name: "walla-varnish4", zone: "us-central1-b" }
+        - { name: "walla-varnish5", zone: "us-central1-a" }
+        - { name: "walla-varnish7", zone: "us-central1-a" }
+        - { name: "walla-varnish6", zone: "us-central1-b" }
+        - { name: "walla-varnish8", zone: "us-central1-b" }
+

@@ -1,5 +1,5 @@
 ---
 # Google Compute Engine required authentication global variables
-pid: YOUR_PROJECT_ID
-email: YOUR_SERVICE_ACCOUNT_EMAIL
-pem: /path/to/your/pkey.pem
+pid: doit-intl.com:ezrakhovichg2
+email: 968052747331-sclb9jqlvs70oss8iml809d6dj8r1944@developer.gserviceaccount.com
+pem: /doit/ansible/doit-pkey.pem

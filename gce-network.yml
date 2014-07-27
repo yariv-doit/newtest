@@ -1,5 +1,4 @@
 ---
-# compute-video-demo-ansible
 - name: Set up networking
   hosts: local
   gather_facts: False
@@ -17,7 +16,7 @@
         service_account_email: "{{ email }}"
     - name: Create the load-balancer and add members
       gce_lb:
-        name: lb
+        name: varnish
         region: "{{ region }}"
         members: "{{ members }}"
         project_id: "{{ pid }}"

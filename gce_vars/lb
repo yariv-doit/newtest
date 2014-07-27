@@ -1,4 +1,4 @@
 ---
 # Variables defined for load-balancer
 region: us-central1
-members: us-central1-a/myinstance1,us-central1-a/myinstance3,us-central1-b/myinstance2,us-central1-b/myinstance4
+members: us-central1-a/walla-varnish1,us-central1-a/walla-varnish3,us-central1-a/walla-varnish5,us-central1-a/walla-varnish7,us-central1-b/walla-varnish2,us-central1-b/walla-varnish4,us-central1-b/walla-varnish6,us-central1-b/walla-varnish8

@@ -2,4 +2,4 @@
 127.0.0.1
 
 [gce_instances]
-myinstance[1:4]
+walla-varnish[1:8]

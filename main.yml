@@ -1,0 +1,5 @@
+---
+# POC for Walla! Varnish demo
+- include: gce-instances.yml
+- include: web.yml
+- include: gce-network.yml

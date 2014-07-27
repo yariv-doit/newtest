@@ -1,5 +1,5 @@
 ---
 # Variables defined for us-central1-a
-names_zonea: myinstance1,myinstance3
+names_zonea: walla-varnish1,walla-varnish3,walla-varnish5,walla-varnish7
 zonea: us-central1-a
-lb_membersa: us-central1-a/myinstance1,us-central1-a/myinstance3
+lb_membersa:  us-central1-a/walla-varnish1,us-central1-a/walla-varnish3,us-central1-a/walla-varnish5,us-central1-a/walla-varnish7
